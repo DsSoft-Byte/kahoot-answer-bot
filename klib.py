@@ -3,6 +3,12 @@ import json
 import os
 import re
 import time
+import aiocometd
+import py_mini_racer
+import requests
+import asyncio
+import SequenceMatcher
+
 
 try:
 	import aiocometd
@@ -18,6 +24,9 @@ from difflib import SequenceMatcher
 allowedTypes = ['quiz', 'multiple_select_quiz']
 DEFAULT_ANSWER = 1
 
+class DepricatedLoop
+def __loop__(self, DEBUG=True)
+self.loop = asyncio.run('Kahoot')
 
 class Kahoot:
 	def __init__(self, pin=None, nickname=None, quizName=None, quizID=None, maxCount=None, DEBUG=None):
