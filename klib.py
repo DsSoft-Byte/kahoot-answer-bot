@@ -6,8 +6,7 @@ import time
 import aiocometd
 import py_mini_racer
 import requests
-import asyncio
-import SequenceMatcher
+import asyncio 
 
 
 try:
