@@ -1,7 +1,9 @@
 # Kahoot Answer Bot
 A bot that takes the name or ID of a kahoot and gets a perfect score with the nickname of your choosing.
 
-*This project was started by [reteps](https://github.com/reteps/kbot) but is has been broken for quite a while, so I forked it and made it work.*
+*This project was started by [reteps](https://github.com/reteps/kbot) fixed by [Raymo111](nolinkXD) and i am fixing it after Raymo111*
+
+This Bot requires *as is* Python 3.6 or Lower, the reason for this is the deprication of asyncio_get_event_loop, i am working on implementig the new asyncio.run() function but as is, no luck
 
 ## Features
 The program intercepts and pretends to be a kahoot client. After receiving quiz name from host, looks up answers for quiz and uses them.
@@ -64,4 +66,5 @@ This is because this program uses the original question order and answer order, 
 ## Contributors
 * [Raymo111](https://github.com/Raymo111) - Fixing it, adding 2FA and search by ID
 * [reteps](https://github.com/reteps) - Main programming
+* [DsSoft-Byte](nolinkXD) - Future implementation of asyncio.run()
 * [idiidk](https://github.com/idiidk) - For the challenge decoding
